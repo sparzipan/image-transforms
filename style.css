@@ -1,0 +1,44 @@
+body {
+  background: gainsboro;
+  margin: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.thumb {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10em;
+  height: 10em;
+  margin: .3em;
+}
+
+.bw {
+  transition: opacity 1s;
+  border: 1px dashed black;
+}
+
+.bw:hover {
+  opacity: 0;
+}
+
+#lavender,
+#hydrangea,
+#flower,
+#purple-flowers {
+  transition: transform .5s cubic-bezier(.7, -0.39, .31, 1.38);
+}
+
+#lavender:hover,
+#hydrangea:hover,
+#flower:hover,
+#purple-flowers:hover {
+  transform: rotate(-5deg);
+}
