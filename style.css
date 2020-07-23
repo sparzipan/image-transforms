@@ -42,3 +42,86 @@ body {
 #purple-flowers:hover {
   transform: rotate(-5deg);
 }
+
+#lego,
+#neon,
+#cat {
+  background-position: 0 0;
+  transition: background-position .5s ease-in-out;
+}
+
+#lego:hover,
+#neon:hover,
+#cat:hover {
+  background-position: 100% 100%;
+}
+
+#bubbles,
+#ice-cream,
+#condensation {
+  transition: border-radius .5s ease-in-out;
+}
+
+#bubbles:hover,
+#ice-cream:hover,
+#condensation:hover {
+  border-radius: 50%;
+}
+
+#keys,
+#glitter,
+#mountain-range {
+  transition: transform 1.5s;
+}
+
+#keys:hover,
+#glitter:hover,
+#mountain-range:hover {
+  transform: scale(.5);
+}
+
+#paint,
+#pink-sky,
+#galaxy,
+#sunset,
+#material {
+  transition: box-shadow 1s, border-radius 1s;
+}
+
+#paint:hover,
+#pink-sky:hover,
+#galaxy:hover,
+#sunset:hover,
+#material:hover {
+  box-shadow: 0 0 50px 10px rebeccapurple;
+  border-radius: 25%;
+}
+
+#street,
+#window,
+#milkyway {
+  transition: border-top .5s, border-bottom .5s;
+}
+
+#street:hover,
+#window:hover,
+#milkyway:hover {
+  border-top: .5em double hotpink;
+  border-bottom: .5em double hotpink;
+}
+
+#night-sky,
+#lake,
+#pattern,
+#shop,
+#clouds {
+  transition: transform 1s;
+}
+
+#night-sky:hover,
+#lake:hover,
+#pattern:hover,
+#shop:hover,
+#clouds:hover {
+  transform: translateY(1em);
+}
